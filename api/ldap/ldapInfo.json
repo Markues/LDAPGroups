@@ -1,0 +1,16 @@
+{
+	"ldaphost": "ldap://path-to-ldap-server:12345",
+	"ldaprdn": "uid=example,ou=example,o=example.com",
+	"ldappass": "example",
+	"ldapgroupinfo": [
+		"cn=example1,ou=example1,o=example.com",
+    "cn=example2,ou=example2,o=example.com",
+    "cn=example3,ou=example3,o=example.com"
+	],
+	"ldapgroupvalue": [
+		"example1",
+		"example2",
+		"example3"
+	],
+	"username": ""
+}
